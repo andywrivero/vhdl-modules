@@ -12,7 +12,7 @@ entity module_bram is
 	port 
 	(
 		clk  	 : in std_logic;
-		we 	 	 : in std_logic;
+		we 	 : in std_logic;
 		addr 	 : in std_logic_vector (ADDR_WIDTH - 1 downto 0);
 		data_in  : in std_logic_vector (WORD_WIDTH - 1 downto 0);
 		data_out : out std_logic_vector (WORD_WIDTH - 1 downto 0)
